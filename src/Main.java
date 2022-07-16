@@ -1,8 +1,15 @@
+
 import java.util.Scanner;
+
 
 public class Main {
 
     public static void main(String[] args) {
+
+        String foo = "foo";
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(foo);
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("nombre del cursante");
         String NomProd = scanner.next();
@@ -20,6 +27,7 @@ public class Main {
             System.out.println("Aprobado " + Prom);
         } else if (Prom < 6 && Prom >= 1) {
             System.out.println("Desaprobado " + Prom);
+
 
         }
 
